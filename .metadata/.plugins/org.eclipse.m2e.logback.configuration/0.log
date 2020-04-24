@@ -1,0 +1,37 @@
+2020-04-24 14:27:33,594 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-04-24 14:27:35,793 [Worker-0: Loading available Gradle versions] ERROR o.e.b.c.i.u.g.PublishedGradleVersions - Cannot write Gradle version information cache file.
+java.io.FileNotFoundException: C:\Users\anton\.tooling\gradle\versions.json (Access is denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[na:1.8.0_241]
+	at java.io.FileOutputStream.open(Unknown Source) ~[na:1.8.0_241]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[na:1.8.0_241]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:193) ~[com.google.guava_27.1.0.v20190517-1946.jar:na]
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:181) ~[com.google.guava_27.1.0.v20190517-1946.jar:na]
+	at com.google.common.io.ByteSink$AsCharSink.openStream(ByteSink.java:149) ~[com.google.guava_27.1.0.v20190517-1946.jar:na]
+	at com.google.common.io.CharSource$StringCharSource.copyTo(CharSource.java:648) ~[com.google.guava_27.1.0.v20190517-1946.jar:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.storeCacheVersionsFile(PublishedGradleVersions.java:183) [org.eclipse.buildship.core_3.1.2.v20190903-1802.jar:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToDownloadAndCacheVersions(PublishedGradleVersions.java:149) [org.eclipse.buildship.core_3.1.2.v20190903-1802.jar:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.tryToUpdateOutdatedVersionsFile(PublishedGradleVersions.java:132) [org.eclipse.buildship.core_3.1.2.v20190903-1802.jar:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersions.create(PublishedGradleVersions.java:116) [org.eclipse.buildship.core_3.1.2.v20190903-1802.jar:na]
+	at org.eclipse.buildship.core.internal.util.gradle.PublishedGradleVersionsWrapper$LoadVersionsJob.run(PublishedGradleVersionsWrapper.java:62) [org.eclipse.buildship.core_3.1.2.v20190903-1802.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-04-24 15:10:16,592 [Worker-4: Creating project "flight-attendant"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.codebind:flight-attendant:0.0.1-SNAPSHOT @ G:\FlightAttendant\flight-attendant\pom.xml.
+2020-04-24 15:10:21,961 [Worker-4: Creating project "flight-attendant"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flight-attendant/src/main/java
+2020-04-24 15:10:21,973 [Worker-4: Creating project "flight-attendant"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /flight-attendant/src/main/resources
+2020-04-24 15:10:21,978 [Worker-4: Creating project "flight-attendant"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /flight-attendant/src/test/java
+2020-04-24 15:10:21,979 [Worker-4: Creating project "flight-attendant"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /flight-attendant/src/test/resources
+2020-04-24 15:10:30,516 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-24 15:10:30,599 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 15:10:30,621 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-24 15:10:30,653 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 15:39:23,110 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-24 15:39:23,229 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 15:39:23,234 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-24 15:39:23,250 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 15:39:24,365 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-24 15:39:24,391 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 15:39:24,396 [Worker-20: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-24 15:39:24,436 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 15:40:39,294 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-24 15:40:39,420 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-04-24 15:40:39,428 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-04-24 15:40:39,533 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
